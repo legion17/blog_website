@@ -10,7 +10,7 @@ const app = express();
 // replace with the original contents in the below dbURI
 
 
-const dburl = "mongodb+srv://nilu_810:mypass@cluster0.fc4x7.mongodb.net/blogdata?retryWrites=true&w=majority";
+// const dbURI = "mongodb+srv://netninja:test1234@net-ninja-tuts-del96.mongodb.net/node-tuts";
 
 //Connect using mongoose
 mongoose.connect(dburl, {
